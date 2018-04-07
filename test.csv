@@ -1,4 +1,4 @@
-name,city,phone
-arjun ,images\cola.png,709
-prudhvi,,534
-jana,pune,986
+name,city,phone,color
+arjun ,images\cola.png,709,blue
+prudhvi,,534,black
+jana,pune,986,red
