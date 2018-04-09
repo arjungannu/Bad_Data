@@ -36,7 +36,30 @@
     background-color: green !important;
 }*/
 
+.word-wrap {
+        word-break: break-all;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+/*.red-tooltip + .tooltip > .tooltip-inner {background-color: #f00;}*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*table td {border:solid 1px #fab; width:100px; word-wrap:break-word;}*/
         .navbar-brand {
             /* font-family: Arial, Helvetica, sans-serif;
             font-size: 16px;
@@ -147,9 +170,28 @@ color: #ffffff;
  <input type="text" id="bulk" name="bulk">
  <button id="assign"> assign</button>
 
+ <select id="mp">
+     <option value="mp" >mp</option>
+ </select>
+ <select id="ref"> <option value="ref" >ref_id</option></select>
+ <select id="attr"> <option value="attr"  >attribute</option></select>
+ <select id="attrv"> <option value="attrv"  >attribute_value</option></select>
+  <!-- <label for="search">search:</label> -->
+  <input type="text" id="search">
+  <button id="search1" >search</button>
+ <label for="count">count:</label><span id="count"></span>
+ <label for="psize">count:</label><input id="psize"></input>
+ 
+<!--   <select id="mp">
+     
+ </select>
+ <select id="ref"> </select>
+ <select id="attr"> </select>
+ <select id="attrv"> </select> -->
 
 
- <table id="bad_data" class="table table-striped" ></table>
+<br><br>
+ <table id="bad_data" class="table table-bordered" ></table>
  <button id="prev"> prev</button>
  <button id="next"> next</button>
 
